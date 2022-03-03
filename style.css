@@ -1,0 +1,41 @@
+.cardBody{
+    background-color: rgb(255, 255, 255);
+    width: 565px;
+    height: 110px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(165 165 165);
+    transition: all 0.3s ease 0s;
+    position: absolute;
+}
+.cardBody:hover{
+    transform: translateY(-7px);
+}
+.imageBox{
+    width: 85px;
+    height: 85px;
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    margin-left: 15px;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BNjRiYTIzZmUtMTFkNS00ZTM0LWE4ODAtMDliMGE4NzM5ZjVlXkEyXkFqcGdeQXVyNDQ0MTYzMDA@._V1_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.title{
+    color: black;
+    margin-top: 5px;
+}
+.playButton{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(91, 238, 140);
+    border: none;
+    box-shadow: 0px 5px 20px rgb(52 192 99);
+    border-radius: 250px;
+    margin-right: 35px;
+    position: absolute;
+}
+.icon{
+    color: black;
+}
