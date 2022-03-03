@@ -1,0 +1,74 @@
+body{
+    background-color: white;
+}
+.playButton{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(91, 238, 140);
+    border: none;
+    box-shadow: 0px 5px 20px rgb(52, 192, 99);
+    border-radius: 250px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 70px;
+    transition: all 0.3s ease 0s;
+}
+.playButton:hover{
+    transform: translateY(-7px);
+    background-color: rgb(33, 197, 88);
+}
+.boxOne{
+    width: 265px;
+    height: 430px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px rgb(165, 165, 165);
+    transition: all 0.3s ease 0s;
+    position: relative;
+}
+.boxOne:hover{
+    transform: translateY(-7px);
+}
+.boxTwo{
+    width: 100%;
+    height: 225px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-image: url(image-1kJLJLSJF32JAKJHGKLEQWDQ.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.watchButton{
+    border: none;
+    background-color: rgb(91, 238, 140);
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -10px;
+    box-shadow: 0px 5px 20px rgb(52, 192, 99);
+}
+.watchButton:hover{
+    background-color: rgb(33, 197, 88);
+    color: rgb(238, 235, 235);
+    transform: translateY(-7px);
+}
+.addButton{
+    border: none;
+    background-color: rgb(91, 238, 140);
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -10px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 5px 20px rgb(52, 192, 99);
+}
+.addButton:hover{
+    background-color: rgb(33, 197, 88);
+    color: rgb(238, 235, 235);
+    transform: translateY(-7px);
+}
